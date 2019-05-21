@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hander"></activity>
+        <activity android:name=".HandlerActivity"></activity>
         <activity android:name=".async_task" />
         <activity android:name=".anr" />
         <activity android:name=".MainActivity">

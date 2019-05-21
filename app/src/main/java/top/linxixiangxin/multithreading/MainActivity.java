@@ -37,13 +37,14 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 1:
-//                        intent.setClass(MainActivity.this,Login.class);
-//                        startActivity(intent);
+                        intent.setClass(MainActivity.this,HandlerActivity.class);
+                        startActivity(intent);
                         break;
                     case 2:
-//                        intent.setClass(MainActivity.this,file_persist.class);
-//                        startActivity(intent);
-                    case 3:
+                        intent.setClass(MainActivity.this,async_task.class);
+                        startActivity(intent);
+                        break;
+//                    case 3:
 //                        intent.setClass(MainActivity.this,Dict.class);
 //                        startActivity(intent);
                     default:
