@@ -48,7 +48,7 @@ public class async_task extends AppCompatActivity {
 
             }
         });
-        cancel = (Button) findViewById(R.id.cancle);
+        cancel = findViewById(R.id.cancle);
         cancel.setOnClickListener(new View.OnClickListener() {
 
             @Override
