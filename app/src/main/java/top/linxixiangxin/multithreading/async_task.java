@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class async_task extends AppCompatActivity {
 
@@ -16,7 +15,7 @@ public class async_task extends AppCompatActivity {
     private ProgressBar pb;
     private TextView tv;
     private DownLoadTask dTask;
-    private static final String TAG = "Async_Task_Activity";
+    private static final String TAG = "myTag";
 
     /**
      * Called when the activity is first created.
